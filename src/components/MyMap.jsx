@@ -41,7 +41,7 @@ export default function MyMap() {
         zoom: 4.5
       }}
       style={{width: "100%", height: 600}}
-      mapStyle="mapbox://styles/mapbox/outdoors-v11"
+      mapStyle="mapbox://styles/mapbox/satellite-v9"
       mapboxAccessToken={MAPBOX_TOKEN}
     >
       <NavigationControl position='top-left' />
